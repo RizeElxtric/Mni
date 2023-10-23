@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "js/main.js", "js/vape-device.js", "js/vaping-juices.js"  ]
 }

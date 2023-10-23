@@ -28,6 +28,92 @@
   color: #61dafb;
 }
 
+/* styles.css */
+.card {
+  width: 23%;
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+#header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* styles.css */
+.card {
+  width: 23%;
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top; /* Align items to the top */
+}
+
+.card img {
+  width: 300px; /* Set a fixed width */
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+}
+
+#vape-devices, #vaping-juices {
+  text-align: center; /* Center-align the items */
+}
+
+#header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#header nav {
+  display: inline;
+  margin-top: 10px;
+}
+
+#header ul {
+  list-style-type: none;
+}
+
+#header ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#header ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
